@@ -1,0 +1,31 @@
+.img{
+    height: 220px;
+    width: 220px;
+    border-radius: 110px;
+}
+
+.header{
+    padding: 40px 45px 40px 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    gap: 40px;
+    font-family: "Roboto";
+}
+
+.columnWrapper{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.headerText{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.smallHeaderText{
+    font-weight: 700;
+}

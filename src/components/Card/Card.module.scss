@@ -1,0 +1,48 @@
+.wrapper{
+    width: 520px;
+    height: 220px;
+    display: flex;
+    align-items: left;
+    background-color: #3C3E44;
+    direction: row;
+    border-radius: 12px;
+    text-decoration: None;
+}
+.image{
+    width: 220px;
+    height: 220px;
+    background-color: #000;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.textwrapper{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    .header{
+        font-family: Roboto;
+        font-size: 28px;
+        color: #FFFFFF;
+        margin: 16px 0 0 0;
+        padding: 0;
+    }
+    p{
+        font-family: Roboto;
+        padding: 0;
+        margin: 0;
+        color: #FFFFFF;
+        .status{
+            font-size: 16px;
+            display: block;
+        }
+    }
+    .location, .episode{
+        margin-top: 20px;
+    }
+    .text{
+        opacity: 0.4;
+        font-weight: bold;
+        display: block;
+    }
+}
